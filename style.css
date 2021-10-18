@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.background {
+  height: 100vh;
+  width: 100wh;
+  background-color: hsl(233, 47%, 7%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  height: 500px;
+  width: 1000px;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 10px;
+  display: flex;
+}
+
+.left-card {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-area {
+  height: 70%;
+  width: 80%;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+
+mark {
+  color: hsl(277, 64%, 61%);
+  background-color: transparent;
+}
+
+.paragraph {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.flex {
+  display: flex;
+  list-style-type: none;
+  margin-top: 120px;
+}
+
+.box {
+  margin-right: 50px;
+}
+
+.num {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+  color: hsl(0, 0%, 100%);
+}
+
+.type {
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.right-card {
+  height: 100%;
+  width: 50%;
+  background-image: url(images/image-header-desktop.jpg);
+  background-size: cover;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.accent {
+  height: 100%;
+  width: 100%;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: rgba(86, 17, 129, 0.527);
+}
+
+img {
+  object-fit: fill;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 1978px) {
+  .card {
+    height: 800px;
+    width: 1400px;
+  }
+}
+
+@media screen and (max-width: 989px) {
+  .card {
+    height: 500px;
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 829px) {
+  .card {
+    height: 500px;
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 741px) {
+  .card {
+    height: 600px;
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 661px) {
+  .card {
+    height: 600px;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 563px) {
+  .card {
+    height: 700px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 419px) {
+  .card {
+    height: 700px;
+    width: 350px;
+  }
+}
